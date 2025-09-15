@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome Back!</h2>
+        <p>Please login to your account</p>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="btn-login">Login</button>
+        </form>
+        <div class="social-login">
+            <p>Or login with:</p>
+            <button class="btn-social btn-google">
+                <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google">
+                Login with Google
+            </button>
+            <button class="btn-social btn-apple">
+                <img src="https://img.icons8.com/ios-filled/16/000000/mac-os.png" alt="Apple">
+                Login with Apple
+            </button>
+        </div>
+        <div class="footer">
+            <p>Don't have an account? <a href="#">Sign Up</a></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
